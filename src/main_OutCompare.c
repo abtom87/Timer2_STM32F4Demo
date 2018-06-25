@@ -45,8 +45,7 @@ int main(void)
 	init_gpio_pins();
 	init_USART2();
 
-	init_timer2();
-	enable_timer_irq();
+	init_timer2();	
 	enable_alt_func_gpio();
 
   
